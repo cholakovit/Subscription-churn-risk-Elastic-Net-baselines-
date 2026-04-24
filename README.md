@@ -1,3 +1,7 @@
+TASK: A customer-focused software company wants to identify which accounts are most likely to leave in the near future so teams can prioritize outreach, improve retention, and protect recurring revenue, using a consistent ranking approach that helps leadership make faster, clearer decisions about where to focus time, budget, and support effort first.
+
+---------------------------------------------------
+
 # Subscription churn risk (Elastic Net + baselines)
 
 ## Business brief
