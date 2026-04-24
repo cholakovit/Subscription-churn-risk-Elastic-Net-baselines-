@@ -2,13 +2,13 @@ import numpy as np
 import pandas as pd
 from dotenv import load_dotenv
 from datasets import load_dataset
-from sklearn.compose import ColumnTransformer # used to preprocess the data
-from sklearn.impute import SimpleImputer # used to fill in missing values
-from sklearn.linear_model import ElasticNetCV # used to train the model
-from sklearn.metrics import roc_auc_score, average_precision_score # used to evaluate the model
-from sklearn.model_selection import train_test_split # used to split the data into training and testing sets
-from sklearn.pipeline import Pipeline # used to create a pipeline of preprocessing and modeling steps
-from sklearn.preprocessing import StandardScaler, OneHotEncoder # used to scale the data and one-hot encode the categorical data
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.linear_model import ElasticNetCV
+from sklearn.metrics import roc_auc_score, average_precision_score
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
 DATASET_NAME = "mnemoraorg/telco-churn-7k"
 
